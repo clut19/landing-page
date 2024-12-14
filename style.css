@@ -14,7 +14,7 @@ ul{
     margin-left: auto;
 }
 
-.img1{
+.imgHeader{
     display: flex;
 }
 
@@ -80,11 +80,23 @@ a{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    gap: 50px;
 }
 
 .illustrations{
     display: flex;
+    justify-content: space-evenly;
 }
+
+.illustrations img{
+    border: 5px solid #3882f6;
+    border-radius: 10%;
+}
+
+
 
 
 
